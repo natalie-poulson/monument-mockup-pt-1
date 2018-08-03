@@ -17,29 +17,28 @@ nav  ul {
     display:flex;
     justify-content: center;
 }
-
 h1 {
     display: flex;
     justify-content: center; 
-    align-items: center;
+    align-items: center; 
     letter-spacing: .5em;
     font-size: 6em;
     padding: 1em 0 1em 0;
     margin: .5em 1.5em 0 1.5em;
     text-transform: uppercase;
     color:white;
-     height: 9em; 
+    height: 9em; 
     background-image: url(images/blog_header_bg.jpg);
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
 }
-
 /* */
  /* Articles////////////////////////////////////////////////////////// */
 main {
     display:flex;
-    flex-direction: column;
-    align-items:center;
+    justify-content:center;
+    /* flex-direction: column; */
+    /* align-items:center; */
 }
 article h2 {
     font-size: 4em;
@@ -54,39 +53,51 @@ article h3 {
     text-transform: uppercase;
 }
 article {
-    width: 130em;
+    width: 80em;
 }
 main img {
-    width: 130em;
+    width: 80em;
 }
 p {
     font-size: 3em;
     line-height: 1.618em;
 }
-.about-us img {
-    width:50em;
-}
+
 /* */
-/* Recent Issues/////////////////////////////////////////////////// */
- article li a {
+/* Aside/////////////////////////////////////////////////// */
+ aside li a {
     color:#8198AB;
     font-weight: bold;
-    font-size: 2.7em;
+    font-size: 3em;
 }
-article ul {
+aside ul {
     margin:0 3em 1em 3em;
 }
-article li {
-    padding: .15em 0 .15em 0;
+aside li {
+    padding: 1em 0;
+}
+aside img {
+    padding: 5em 0;
+    width:40em;
+}
+aside {
+    width:40em;
+    padding: 3.5em 0 0 0;
+    margin: 0 0 0 9em;
+}
+
+aside h3 {
+    letter-spacing: .2em;
+    font-size: 3.25em;
+    text-transform: uppercase;
 }
 /*  */
-
 /* Footer /////////////////////////////////////////////////////////*/
 footer {
     text-align:center; 
     background-color:lightblue;
     padding: 0 0 1em 0;
-    height: 20em;
+    height: 36em;
 }
 li a {
     text-decoration: none;
@@ -103,7 +114,21 @@ footer ul {
     padding: 5em 0 0 0;
 }
 footer p {
-    padding: 5em 0 0 2em;
+    margin: 5em 0 0 0;
     font-size:2.7em;
 }
-/*  */
+
+input[type=text] {
+    padding: 1.4em 8em;
+    margin: 5em 3em;
+}
+
+input[type=submit] {
+    color:#4B4D57;
+    background-color:lightblue;
+    border: .2em solid #4B4D57;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 1em 3em;
+    letter-spacing:.2em;
+}
