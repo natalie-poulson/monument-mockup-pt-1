@@ -24,7 +24,6 @@ h1 {
 }
 /*  */
 
-
  /* Main */
  main {
      display:flex;
@@ -47,7 +46,6 @@ article h3 {
 article {
     width: 80%;
 }
-/* */
 
 main img {
     width:100%;
@@ -62,6 +60,8 @@ p {
 .blog img {
     width:40%;
 }
+/* */
+
 /* Recent Issues */
  article li a {
     color:#8198AB;
@@ -79,16 +79,14 @@ article li {
 }
 /*  */
 
-
-
 /* Footer */
 footer {
     text-align:center; 
     background-color:lightblue;
     padding: 0 0 15px 0;
 }
-li a 
-{
+
+li a {
     text-decoration: none;
     color: #4B4D57;
     padding: 10px;
