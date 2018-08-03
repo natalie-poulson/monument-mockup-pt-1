@@ -1,105 +1,109 @@
 body {
     color: #4B4D57;
     font-family: 'Raleway 600', sans-serif;
+    font-size:16px;
 }
-
-/* Navigation */
+/* Navigation//////////////////////////////////////////////////// */
 header li a {
     color:#8198AB;
     font-weight: bold;
-    margin: 10px;    
+    margin: 5em;    
     font-size: 2.5em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
 }
 nav  ul {
     list-style: none;
     display:flex;
     justify-content: center;
 }
+
 h1 {
     display: flex;
     justify-content: center; 
+    align-items: center;
     letter-spacing: .5em;
     font-size: 6em;
-    padding: 60px;   
+    padding: 1em 0 1em 0;
+    margin: .5em 1.5em 0 1.5em;
+    text-transform: uppercase;
+    color:white;
+     height: 9em; 
+    background-image: url(images/blog_header_bg.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
 }
-/*  */
 
- /* Main */
- main {
-     display:flex;
-     flex-direction: column;
-     align-items:center;
- }
-
+/* */
+ /* Articles////////////////////////////////////////////////////////// */
+main {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
 article h2 {
     font-size: 4em;
-    letter-spacing: 5px;
-    margin: 0 0 50px 0;
+    letter-spacing: .175em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase; 
 }
-
 article h3 {
-    letter-spacing: 5px;
-    font-size:3em;
-    margin: 40px 0 40px 0;
+    letter-spacing: .2em;
+    font-size: 3em;
+    margin: 1em 0 1em 0;
+    text-transform: uppercase;
 }
-
 article {
-    width: 80%;
+    width: 130em;
 }
-
 main img {
-    width:100%;
+    width: 130em;
 }
-
 p {
     font-size: 3em;
-    letter-spacing:2px;
-    line-height: 1.4em;
+    line-height: 1.618em;
 }
-
-.blog img {
-    width:40%;
+.about-us img {
+    width:50em;
 }
 /* */
-
-/* Recent Issues */
+/* Recent Issues/////////////////////////////////////////////////// */
  article li a {
     color:#8198AB;
     font-weight: bold;
-    font-size: 2.5em;
-    /* padding: 50px 0 50px 0; */
+    font-size: 2.7em;
 }
-
 article ul {
-    margin:70px;
+    margin:0 3em 1em 3em;
 }
-
 article li {
-    padding: 5px 0 5px 0;
+    padding: .15em 0 .15em 0;
 }
 /*  */
 
-/* Footer */
+/* Footer /////////////////////////////////////////////////////////*/
 footer {
     text-align:center; 
     background-color:lightblue;
-    padding: 0 0 15px 0;
+    padding: 0 0 1em 0;
+    height: 20em;
 }
-
 li a {
     text-decoration: none;
     color: #4B4D57;
-    padding: 10px;
+    padding: 3em 0 0 0;
+    margin: 0 0 0 2em;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
 footer ul {
     list-style: none;
     display:flex;
-    justify-content: center;
+    justify-content: center; 
+    padding: 5em 0 0 0;
 }
-
 footer p {
-    font-size:2.3em;
+    padding: 5em 0 0 2em;
+    font-size:2.7em;
 }
 /*  */
