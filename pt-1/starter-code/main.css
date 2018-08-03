@@ -1,0 +1,107 @@
+body {
+    color: #4B4D57;
+    font-family: 'Raleway 600', sans-serif;
+}
+
+/* Navigation */
+header li a {
+    color:#8198AB;
+    font-weight: bold;
+    margin: 10px;    
+    font-size: 2.5em;
+}
+nav  ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+h1 {
+    display: flex;
+    justify-content: center; 
+    letter-spacing: .5em;
+    font-size: 6em;
+    padding: 60px;   
+}
+/*  */
+
+
+ /* Main */
+ main {
+     display:flex;
+     flex-direction: column;
+     align-items:center;
+ }
+
+article h2 {
+    font-size: 4em;
+    letter-spacing: 5px;
+    margin: 0 0 50px 0;
+}
+
+article h3 {
+    letter-spacing: 5px;
+    font-size:3em;
+    margin: 40px 0 40px 0;
+}
+
+article {
+    width: 80%;
+}
+/* */
+
+main img {
+    width:100%;
+}
+
+p {
+    font-size: 3em;
+    letter-spacing:2px;
+    line-height: 1.4em;
+}
+
+.blog img {
+    width:40%;
+}
+/* Recent Issues */
+ article li a {
+    color:#8198AB;
+    font-weight: bold;
+    font-size: 2.5em;
+    /* padding: 50px 0 50px 0; */
+}
+
+article ul {
+    margin:70px;
+}
+
+article li {
+    padding: 5px 0 5px 0;
+}
+/*  */
+
+
+
+/* Footer */
+footer {
+    text-align:center; 
+    background-color:lightblue;
+    padding: 0 0 15px 0;
+}
+li a 
+{
+    text-decoration: none;
+    color: #4B4D57;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+footer ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size:2.3em;
+}
+/*  */
